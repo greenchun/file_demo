@@ -10,7 +10,31 @@
     tools:context="com.example.givemepass.filedemo.MainActivity">
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/display_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="internal write"
+        android:layout_below="@id/display_text"
+        android:id="@+id/internal_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="internal read"
+        android:layout_below="@id/internal_write"
+        android:id="@+id/internal_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="internal tmp write"
+        android:layout_below="@id/internal_read"
+        android:id="@+id/internal_tmp_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="internal tmp read"
+        android:layout_below="@id/internal_tmp_write"
+        android:id="@+id/internal_tmp_read"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
