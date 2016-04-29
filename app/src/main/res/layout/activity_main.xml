@@ -14,27 +14,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
-        android:text="internal write"
+        android:text="內部寫入"
         android:layout_below="@id/display_text"
         android:id="@+id/internal_write"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
-        android:text="internal read"
+        android:text="內部讀取"
         android:layout_below="@id/internal_write"
         android:id="@+id/internal_read"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
-        android:text="internal tmp write"
+        android:text="內部暫存寫入"
         android:layout_below="@id/internal_read"
         android:id="@+id/internal_tmp_write"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
-        android:text="internal tmp read"
+        android:text="內部暫存讀取"
         android:layout_below="@id/internal_tmp_write"
         android:id="@+id/internal_tmp_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="外部公開資料夾"
+        android:layout_below="@id/internal_tmp_read"
+        android:id="@+id/extelnal_public_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="外部私有資料夾"
+        android:layout_below="@id/extelnal_public_folder"
+        android:id="@+id/extelnal_private_folder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
